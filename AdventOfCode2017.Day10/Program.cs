@@ -126,7 +126,7 @@ namespace AdventOfCode2017.Day10
 				int hashNumber = 0;
 				items.ForEach( n => hashNumber ^= n);
 
-				denseHash.Append(hashNumber.ToString("X"));
+				denseHash.Append(hashNumber.ToString("X2"));
 			}
 
 			return denseHash.ToString();
